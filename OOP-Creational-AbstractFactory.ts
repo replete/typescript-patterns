@@ -1,5 +1,5 @@
 `
-Abstract Method (http://www.oodesign.com/abstract-factory-pattern.html)
+Abstract Method
  
   Intent:
   - Abstract Factory offers the interface for creating a family of related objects, without explicitly specifying their classes.
@@ -9,6 +9,8 @@ Abstract Method (http://www.oodesign.com/abstract-factory-pattern.html)
     - [ConcreteFactory*] implements operations to create concrete products.
     - [Product] declares an interface for a type of product objects.
     - [ConcreteProduct**] defines a product to be created by the corresponding ConcreteFactory; it implements the Product interface.
+
+  based on http://www.oodesign.com/abstract-factory-pattern.html
 `;
 
 abstract class ProductA {

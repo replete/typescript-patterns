@@ -1,5 +1,5 @@
 `
-Factory (http://www.oodesign.com/factory-pattern.html)
+Factory
 
   Intent:
   - Creates objects without exposing the instantiation logic to the client.
@@ -18,6 +18,7 @@ Factory (http://www.oodesign.com/factory-pattern.html)
   - [ProductFactory] declares the method create, which returns a Product object. 
       May call the generating method for creating Product objects
 
+  based on http://www.oodesign.com/factory-pattern.html
 `
 abstract class Product {
   constructor(public name:string) {}

@@ -1,5 +1,5 @@
 `
-Factory Method (http://www.oodesign.com/factory-method-pattern.html)
+Factory Method
  
   Intent:
   - Defines an interface for creating objects, but let subclasses to decide which class to instantiate
@@ -11,6 +11,8 @@ Factory Method (http://www.oodesign.com/factory-method-pattern.html)
   - [ProductFactory] declares the method factoryMethod, which returns a Product object. 
       May call the generating method for creating Product objects
   - [ConcreteProductFactory] overrides the generating method for creating ConcreteProduct objects
+
+  based on http://www.oodesign.com/factory-method-pattern.html
 `
 
 abstract class Product {
