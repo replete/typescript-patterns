@@ -12,6 +12,12 @@ Factory (http://www.oodesign.com/factory-pattern.html)
     abstract product class).
   - The client uses the products as abstract products without being aware about their concrete implementation.
 
+  Participants:
+  - [Product] defines the interface for objects the factory creates.
+  - [ConcreteProduct*] implements the Product interface.
+  - [ProductFactory] declares the method create, which returns a Product object. 
+      May call the generating method for creating Product objects
+
 `
 abstract class Product {
   constructor(public name:string) {}
